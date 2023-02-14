@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+
+<body>
+    <h2>This is HTML Forms</h2>
+    <form action="backend.php">
+        <label for="name">Name:</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="role">Role:</label>
+        <div>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date:<input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus:<input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Are you Eligible?:<input type="checkbox" name="myEligibility" checked>
+        </div>
+        <br>
+        <label for="eligible">Are you Fine?:</label>
+        <div>
+            <input type="checkbox" name="myEligibility" id="eligible">
+        </div>
+        <br>
+        <div>
+            Gender:Male<input type="radio" name="myGender">Female<input type="radio" name="myGender">Others<input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Write about you: <br><textarea name="myText"  cols="90" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Cars</label>
+            <select name="mycar" id="car">
+                <option value="mahi">Mahindra</option>
+                <option value="tata" selected>Tata</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit now">
+            <input type="reset" value="Reset now">
+        </div>
+    </form>
+    
+</body>
+
+</html>
