@@ -1,2 +1,2 @@
 # HTML_CODES
-This is html codes for revision
+<h2> This codes are for practice in html</h2>
